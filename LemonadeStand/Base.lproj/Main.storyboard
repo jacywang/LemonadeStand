@@ -114,6 +114,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="183" y="162" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="purchaseLemonsPlusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Gb-iX-XG7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAl-ZI-QOr">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -123,6 +126,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="276" y="162" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="purchaseLemonsMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SP9-Fb-4Co"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3b-Gd-tEr">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -132,6 +138,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="183" y="191" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="purchaseIcePlusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2nq-WH-1BJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="850-qI-73I">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -141,6 +150,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="276" y="191" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="purchaseIceMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qMm-Yw-EnT"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfH-5U-bv7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -204,6 +216,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="185" y="293" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="MixLemonsPlusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GNk-H8-ko2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNy-Sr-bLf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -213,6 +228,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="276" y="293" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="MixLemonsMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ViG-uu-aky"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6R-u8-zlg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -222,6 +240,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="185" y="322" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="MixIcePlusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OCv-Zs-nYF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZG9-e5-Pgh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -231,6 +252,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="276" y="322" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="MixIceMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kKN-nD-W5U"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ueb-Jc-hBn">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -276,9 +300,18 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="119" y="493" width="140" height="62"/>
+                                    <rect key="frame" x="119" y="481" width="140" height="62"/>
                                 </variation>
+                                <connections>
+                                    <action selector="startDayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cS0-GM-upl"/>
+                                </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vav-sk-IeI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="65" width="90" height="52"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -312,6 +345,7 @@
                                 <exclude reference="btb-pV-SaT"/>
                                 <exclude reference="oE6-ep-73F"/>
                                 <exclude reference="4x1-eu-j1m"/>
+                                <exclude reference="vav-sk-IeI"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -345,9 +379,20 @@
                                 <include reference="btb-pV-SaT"/>
                                 <include reference="oE6-ep-73F"/>
                                 <include reference="4x1-eu-j1m"/>
+                                <include reference="vav-sk-IeI"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="moneyInSupplyLabel" destination="3yv-W2-9KH" id="PVv-Cg-0i2"/>
+                        <outlet property="numberOfIceCubesPurchasedLabel" destination="rFy-d4-CxT" id="Apj-6E-Kxt"/>
+                        <outlet property="numberOfIceInSupplyLabel" destination="jbv-3L-zc9" id="jwf-8T-2uP"/>
+                        <outlet property="numberOfIceMixedLabel" destination="v50-s7-daN" id="TNc-BP-HAM"/>
+                        <outlet property="numberOfLemonsInSupplyLabel" destination="gej-HY-67H" id="CNW-ix-3Wb"/>
+                        <outlet property="numberOfLemonsMixedLabel" destination="Ueb-Jc-hBn" id="vEe-xX-faJ"/>
+                        <outlet property="numberOfLemonsPurchasedLabel" destination="wfH-5U-bv7" id="c9g-vK-6S2"/>
+                        <outlet property="weatherImageView" destination="vav-sk-IeI" id="8Ow-SJ-Fl4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
